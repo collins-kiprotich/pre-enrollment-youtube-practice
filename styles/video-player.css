@@ -1,0 +1,99 @@
+
+.video-player{
+  flex: 1;
+  margin-left: 80px;
+  display: flex;
+  flex-direction: column;
+  
+
+  
+  
+}
+
+.video-window{
+
+margin-bottom: 20px;
+height: 400px;
+background-color: black;
+width: 800px;
+margin-left: 0;
+  
+}
+.video-title{
+  font-size: 20px;
+}
+.action{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(202, 200, 200);
+  margin-bottom: 20px;
+}
+.video-owner{
+  display: flex;
+  
+}
+.profile{
+  margin-right: 20px;
+
+}
+.user-image{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: aqua;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin:10px;
+}
+.profile-description{
+display: flex;
+flex-direction: column;
+}
+.description-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+button{
+  background-color: rgb(211, 6, 6);
+  border: none;
+  padding: 10px;
+  color: white;
+  border-radius: 1px;
+  font-size: 16px;
+}
+.description-paragraph{
+  border-bottom: 1px solid rgb(201, 195, 195);
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  line-height: 24px;
+  font-size: 15px;
+}
+.comment-header{
+  display: flex;
+  margin-bottom: 15px;
+  font-size: 18px;
+
+}
+.comments{
+  margin-right: 20px;
+}
+.comment-section{
+  display: flex;
+  align-items: center;
+  
+}
+.user-image{
+  width: 50px;
+  padding: 8px;
+}
+.user-comment{
+  display: flex;
+  flex: 1;
+  color: rgb(105, 101, 101);
+  font-size: 14px;
+  border-bottom: 1px solid rgb(202, 196, 196);
+  padding-bottom: 0px;
+}
