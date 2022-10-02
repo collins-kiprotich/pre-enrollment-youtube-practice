@@ -1,3 +1,6 @@
+body{
+padding-right: 10px;
+}
 .youtube-page{
   margin-top: 60px;
   display: flex;

@@ -25,21 +25,34 @@
       </div>
       <div class="middle-section"> 
         <input class="search-bar" type="text" placeholder="Search">
-        <img class="search-icon" src="header-icons/search-icon.svg" alt="">
-        <img class="voice-search-icon" src="header-icons/voice-search-icon.svg" alt="">
+        <div class="search-container">
+          <img class="search-icon" src="header-icons/search-icon.svg" alt="">
+          <div class="tooltip2">search</div>
+        </div>
+        <div class="voice-search-container">
+          <img class="voice-search-icon" src="header-icons/voice-search-icon.svg" alt="">
+          <div class="tooltip2">
+            search with your voice
+          </div>
+        </div>
       </div>
       <div class="left-section">
-        <img class="upload-icon" src="header-icons/upload.svg" alt="">
-        <img class=" notifications-icon" src="header-icons/notifications.svg" alt="">
-        <img class="youtube-apps" src="header-icons/youtube-apps.svg" alt="">
-        <img class="youtube-apps" src="header-icons/" alt="">
+        <div class="upload-container">
+          <img class="upload-icon" src="header-icons/upload.svg" alt="">
+          <div class="tooltip2">upload</div>
+        </div>
+        <div class="notifications-container">
+          <img class=" notifications-icon" src="header-icons/notifications.svg" alt="">
+          <div class="tooltip2"> notifications</div>
+        </div>
+        <img class="youtube-apps" src="header-icons/youtube-apps.svg" alt=""> 
       </div>
     </div>
     <main class="youtube-page">
       <div class="section1">
         <section class="video-player">
           <div class="video-window">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
           <div class="video-title">
             Contributing to Open Source Part 1!: The Easy Way 
@@ -50,12 +63,12 @@
           </div>
           <div class="video-owner">
             <div class="profile">
-              <div class="user-image">T</div> 
+              <div class="user-image-owner">T</div> 
             </div>
             <div class="profile-description">
               <div class="description-header">
                   <div> The Odin Project</div>
-                  <button>SUBSCRIBE</button> 
+                  <button class="subscribe-button">SUBSCRIBE</button> 
               </div>
               <div class="description-paragraph">
                 How do you contribute to open source?  In this video, I'll describe the easiest way to make a simple contribution to an open source project -- without using the command line, a text editor, "forking a repo", or even touching Git outside of Github.  I'll also describe what kinds of contributions open source software projects are typically looking for.  As an example, I use submitting a student solution to a web development exercise from The Odin Project, a free online curriculum for learning web development with Ruby on Rails.  You can find more information about that project at http://theodinproject.com.
@@ -143,9 +156,243 @@
        <div class="ad-space">
         ads video
        </div>
+
+<div class="classification-buttons">
+  <button class="current-button">
+    All
+  </button>
+  <button class="category-button">
+    Source code
+  </button>
+  <button class="category-button">
+    Listenable
+  </button>
+  <button class="category-button">
+    Related
+  </button>
+</div>
+
        <div class="video-thumbnails">
-        video thumbnails
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              14:25
+            </div>
+            <img class="thumbnail-image" src="thumbnails/thumbnail(1).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+           Contributing to Open Source Part II: The Real Way 
+          </div>
+          <div class="video-author">
+            The Odin Project
+          </div>
+          <div class="video-stats">
+            38k views . 8 years ago
+          </div>
+        </div>
       </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              18:25
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(2).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+              contributing to Open Source for the first time
+          </div>
+          <div class="video-author">
+            Meta Open Source
+          </div>
+          <div class="video-stats">
+            201 views . 2 years ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              8:49
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(3).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+           How (in 2022) to become a software engineer with no experience
+          </div>
+          <div class="video-author">
+            SupeSimpleDev
+          </div>
+          <div class="video-stats">
+            341k views . 1 year ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              36:57
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(4).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+           Git and Github - 0 Experience to Professional in 1 Tutorial (Part 1)
+          </div>
+          <div class="video-author">
+            SupeSimpleDev
+          </div>
+          <div class="video-stats">
+            34k views . 1 year ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              1:00;06
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(5).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            Python for Beginners- Learn Python in 1 Hour
+          </div>
+          <div class="video-author">
+            Programming with Mosh
+          </div>
+          <div class="video-stats">
+            7.3M views . 2 years ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              19:10
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(6).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            Mastery: How to Learn Anything Fast | Nishant Kasibhatia
+          </div>
+          <div class="video-author">
+            Ideas & Inspiration
+          </div>
+          <div class="video-stats">
+            11M views . 3 years ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              17:50
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(7).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            THE POWER OF DISCOVERING YOUR GIFT FOR SUCCESS [THIS WILL CHANGE YOUR LIFE INSTANTLY]
+          </div>
+          <div class="video-author">
+           Wisdom for Dominion
+          </div>
+          <div class="video-stats">
+            1.2M views . 3 years ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+             15:24 
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(8).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            How to become a Math Genius: How do genius people see a math problem! by mathOgenius
+          </div>
+          <div class="video-author">
+            mathOgenius
+          </div>
+          <div class="video-stats">
+            2.3M views .5 years ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              1:00:45
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(9).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            2022 ONE DROP REGGAE RIDDIMS MIBX/ DJ FRANCOL, TARRUS RILEY,J BOOG, 
+            CHRIS MARTIN,BUSY SIGNAL,ALAINE Etc
+          </div>
+          <div class="video-author">
+            DJ Francol
+          </div>
+          <div class="video-stats">
+            646k views . 3 months ago
+          </div>
+        </div>
+      </div>
+
+      <div class="video-thumbnails">
+        <div class="thumbnail">
+          <div class="thumbnail-container">
+            <div class="time-duration">
+              13:41
+            </div>
+          <img class="thumbnail-image" src="thumbnails/thumbnail(10).webp" alt="upcoming">
+          </div>
+        </div>
+        <div class="thumbnail-details">
+          <div class="thumbnail-title">
+            How to start contributing to an open source project?
+          </div>
+          <div class="video-author">
+            HeisenBug Tech
+          </div>
+          <div class="video-stats">
+            6.7k views . 5 years ago
+          </div>
+        </div>
+      </div>
+
       </div>
     </main>
     

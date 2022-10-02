@@ -1,7 +1,7 @@
 .header{
   display: flex;
   flex-direction: row;
-  height: 50px;
+  height: 60px;
   align-items: center;
   position: fixed;
   top: 0px;
@@ -15,7 +15,7 @@
 .right-section{
   display: flex;
   justify-content: space-around;
-  width: 150px;
+  width: 190px;
   flex-shrink: 0;
   
 
@@ -36,15 +36,15 @@
   position: absolute;
   right: -20px;
   top: -10px;
+  font-family: Roboto,Arial, Helvetica, sans-serif;
 }
 .middle-section{
   display: flex;
   flex: 1;
   align-items: center;
-  margin-left: 50px;
-  flex: 1;
-
-  /* background-color: lightcoral; */
+  margin-left: 150px;
+  margin-right: 10px;
+    
 
 
 }
@@ -81,6 +81,19 @@
   border-radius: 18px;
   margin-left: 10px;
   margin-right: 50px;
+  position: relative;
+}
+
+.tool-tip{
+  position: absolute;
+  bottom: -15px;
+  
+  white-space: nowrap; 
+  background-color: grey;
+  color: white;
+  padding-left: 3px;
+  border-radius: 4px;
+
 }
 .left-section{
   display: flex;
@@ -91,6 +104,33 @@
 }
 .upload-icon{
   height: 24px;
+  
+}
+.upload-container, .notifications-container,.voice-search-container,.search-container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tooltip2{
+  background-color: grey;
+  color: white;
+  white-space: nowrap;
+  display: flex;
+  position: absolute;
+  bottom: -40px;
+  padding: 3px;
+  border-radius: 3px;
+  font-size: 13px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.upload-container:hover .tooltip2, 
+.notifications-container:hover .tooltip2, 
+.voice-search-container:hover .tooltip2, 
+.search-container:hover .tooltip2{
+  opacity: 1;
 }
 .notifications-icon{
   height: 24px;
